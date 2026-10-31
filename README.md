@@ -20,7 +20,8 @@ A probability is a dial, and leaders own where it sits. Where a miss is dangerou
 **4. From "is the AI safe?" to "what can the input change?"**<br>
 Anyone who writes the input can try to steer the answer. Facts you can verify (coverage, account status, identity) never come from the text. Text that tries to steer becomes a signal of its own. Close calls go to a person.
 
-**5. The right tool for each step.**<br>
+**5. The right tool for each step.**
+
 | Step | Best tool |
 |---|---|
 | A fact you can look up | A plain rule or a database |
