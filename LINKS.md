@@ -24,4 +24,19 @@ We link to these rather than copy them. Listing something here isn't an endorsem
 
 ## Other decision models
 
-Coming soon: links to other vendors' docs and open models, as Decision Layer covers the wider category.
+These examples are written for Jev. Other decision models use their own request formats, so the code here won't run on them unchanged. Links checked Oct 31, 2026.
+
+**From the maker**
+- OpenAI, [Decisions API guide](https://developers.openai.com/api/docs/guides/decisions)
+- Microsoft, [Introducing Microsoft-Decision-1 in Microsoft Foundry](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-microsoft-decision-1-in-microsoft-foundry-for-decision-and-classific/4562742)
+- Liquid AI, [d1-ultra](https://www.liquid.ai/blog/d1-ultra)
+- Fastino, [GLiNER2.5-Decide](https://fastino.ai/blog/gliner-2-5-decide-open-weight-decision-model)
+
+**Hosted on a platform, not the maker's own page**
+- Base Labs Elephant-1, [on Baseten](https://www.baseten.co/library/elephant-1/)
+- Laya, [on Hugging Face](https://huggingface.co/convaiinnovations/laya)
+- Inception Mercury Decide, [on OpenRouter](https://openrouter.ai/inception/mercury-decide)
+
+**Press only so far**
+- Cloudflare Clef: [The Register](https://www.theregister.com/a/5300649), which reports its API is "fully Jev compatible". We haven't checked that against these examples.
+- AWS Strands Decider 2B: [SiliconANGLE](https://siliconangle.com/2026/10/01/aws-debuts-strands-decider-2b-a-first-lightweight-decision-model-for-accelerate-agentic-workflows/)
