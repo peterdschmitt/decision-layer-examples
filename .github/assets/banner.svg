@@ -1,11 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Decision Layer: the tractor and the hydraulics">
-  <rect width="1200" height="300" fill="#14213d"/>
-  <g stroke="#2a3a63" stroke-width="1">
-    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/>
-    <path d="M100 0V300M200 0V300M300 0V300M400 0V300M500 0V300M600 0V300M700 0V300M800 0V300M900 0V300M1000 0V300M1100 0V300"/>
-  </g>
-  <rect x="64" y="72" width="10" height="156" fill="#e8702a"/>
-  <text x="100" y="112" fill="#e8702a" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">DECISION LAYER</text>
-  <text x="100" y="172" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="800">The tractor and the hydraulics</text>
-  <text x="100" y="216" fill="#c9d2e6" font-family="Helvetica, Arial, sans-serif" font-size="24">LLMs and decision models, working in tandem</text>
+  <rect width="1200" height="300" fill="#F7F3EC"/>
+  <rect x="24.5" y="24.5" width="1151" height="251" rx="10" fill="#FFFFFF" stroke="#DCD3C4"/>
+  <text x="72" y="104" fill="#A8430A" font-family="'IBM Plex Mono', Menlo, Consolas, monospace" font-size="18" letter-spacing="4">DECISION LAYER · WORKED EXAMPLES</text>
+  <text x="72" y="178" fill="#1B1613" font-family="'Instrument Serif', Georgia, 'Times New Roman', serif" font-size="64">The tractor and the hydraulics</text>
+  <text x="72" y="226" fill="#4A4239" font-family="'IBM Plex Sans', Helvetica, Arial, sans-serif" font-size="24">LLMs and decision models, working in tandem</text>
+  <rect x="72" y="244" width="64" height="4" fill="#F26B1D"/>
 </svg>
