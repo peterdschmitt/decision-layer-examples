@@ -47,7 +47,16 @@ An LLM agent works through a multi-step task. At each step the decision model as
 
 We work in insurance because it is high-stakes, regulated and full of judgment calls. The patterns carry over to any process.
 
-Our first three examples build the decision-model half on its own: the narrow questions and the rules that act on them. Examples of the full pairing, starting with "check before it goes out" and "keep only what the source supports", are next.
+**The pairing in action**
+
+**[Check before it goes out](examples/llm-letter-check/)**<br>
+An LLM drafts a claim letter that promises coverage nobody has approved. The decision model catches it against the claim file and sends the LLM four exact fixes. The customer gets a correct letter the same day.
+
+**[Keep only what the source supports](examples/llm-fact-check/)**<br>
+An LLM summarizes a contractor's submission and invents "no roofing" and "no prior claims." The decision model checks each fact against the source, and the underwriter never sees the made-up ones.
+
+**The decision-model building blocks**
+
 
 **[Claims intake triage](examples/claims-fnol-triage/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-intake-labels-not-essays))<br>
 Small questions, and a low bar for human review where a miss is dangerous. The building block for "sort first, think second."
