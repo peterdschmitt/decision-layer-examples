@@ -1,0 +1,21 @@
+name: checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Routing rules (offline, made-up answers)
+        run: python3 run_tests.py
+      - name: Dry runs build a valid request
+        run: for f in examples/*/run.py; do python3 "$f" --dry-run > /dev/null; done
+      - name: No API key committed
+        run: |
+          if grep -rInE 'TYPESAFE_API_KEY *[=:] *["'"'"']?[A-Za-z0-9_\-]{12,}' --exclude-dir=.git .; then
+            echo "Something that looks like a real key was committed." && exit 1
+          fi
