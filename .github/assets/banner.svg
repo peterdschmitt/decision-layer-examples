@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Decision Layer worked examples">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Decision Layer: rethink how AI makes decisions">
   <rect width="1200" height="300" fill="#14213d"/>
   <g stroke="#2a3a63" stroke-width="1">
     <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/>
@@ -6,6 +6,6 @@
   </g>
   <rect x="64" y="72" width="10" height="156" fill="#e8702a"/>
   <text x="100" y="112" fill="#e8702a" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">DECISION LAYER</text>
-  <text x="100" y="172" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="800">Worked examples you can copy</text>
-  <text x="100" y="216" fill="#c9d2e6" font-family="Helvetica, Arial, sans-serif" font-size="24">Decision models for insurance claims and underwriting</text>
+  <text x="100" y="172" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="52" font-weight="800">Rethink how AI makes decisions</text>
+  <text x="100" y="216" fill="#c9d2e6" font-family="Helvetica, Arial, sans-serif" font-size="24">A playbook for leaders running AI inside real processes</text>
 </svg>
