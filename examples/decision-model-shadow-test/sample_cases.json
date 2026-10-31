@@ -1,0 +1,8 @@
+{
+  "_note": "Made-up probabilities for illustration, not model output. Replace with answers logged in shadow from your own candidates.",
+  "labels": [true, true, true, false, false, false, false, false, false, true],
+  "candidates": {
+    "model_a": [0.97, 0.92, 0.88, 0.03, 0.05, 0.10, 0.02, 0.30, 0.04, 0.96],
+    "model_b": [0.71, 0.66, 0.62, 0.20, 0.35, 0.28, 0.15, 0.40, 0.22, 0.69]
+  }
+}
