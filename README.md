@@ -1,4 +1,4 @@
-<p align="center"><img src=".github/assets/banner.svg" alt="Decision Layer: rethink how AI makes decisions" width="100%"></p>
+<p align="center"><img src=".github/assets/banner.svg" alt="Decision Layer: the tractor and the hydraulics" width="100%"></p>
 
 Language models are good at reading, drafting and reasoning. They are also slow, expensive, and sure of themselves when they shouldn't be. Put one alone in charge of a real business action and you get slop: confident letters that promise the wrong thing, summaries with facts the source never said, and agents that keep going when they should stop.
 
