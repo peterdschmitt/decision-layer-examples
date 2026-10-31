@@ -55,6 +55,9 @@ The LLM writes every letter. The decision model answers four questions about it 
 **[Submission intake, fully automated to market](examples/submission-intake-automated/)**<br>
 The LLM builds the fact sheet from each submission. The decision model judges every fact against the source. Sheets where every fact holds go straight to carriers.
 
+**[Candidate shortlist: criteria with levels](examples/candidate-shortlist-criteria/)** ([story](https://decision-layer-indol.vercel.app/blog/jack-and-jill-coupled-llm-decision-model/))<br>
+The decision model gives every candidate a first score against the role's criteria; the LLM reads only the shortlist. "Sort and solve" for hiring.
+
 **Building blocks: how to write the decision model's questions**
 
 **[Claims intake triage](examples/claims-fnol-triage/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-intake-labels-not-essays))<br>
