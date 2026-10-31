@@ -1,68 +1,72 @@
 <p align="center"><img src=".github/assets/banner.svg" alt="Decision Layer: rethink how AI makes decisions" width="100%"></p>
 
-Most organizations put AI into a process the same way. They hand a large language model the whole problem, read what it writes, and hope someone catches the mistakes. Managing AI then means reviewing prose, arguing about prompts, and trusting a system nobody can fully explain.
+Language models are good at reading, drafting and reasoning. They are also slow, expensive, and sure of themselves when they shouldn't be. Put one alone in charge of a real business action and you get slop: confident letters that promise the wrong thing, summaries with facts the source never said, and agents that keep going when they should stop.
 
-Decision models change that. Jev from TypeSafe, and now similar models from OpenAI, Microsoft and others, don't write anything. They answer narrow questions you define, with a probability attached, in milliseconds and for fractions of a cent. That makes a different design possible: the AI supplies evidence, and your process, in rules you can read, decides what happens next.
+Decision models are the other half. Jev from TypeSafe, and now similar models from OpenAI, Microsoft and others, write nothing. They answer narrow questions you define, with a probability, in milliseconds and for fractions of a cent.
 
-The job shifts from checking what the AI said to **designing the decisions**. This repository is [Decision Layer](https://decision-layer-indol.vercel.app/)'s playbook for that shift, with worked examples you can take apart.
+**Used together, they turn AI output into action you can trust.** The LLM does the thinking and drafting. The decision model checks, ranks and routes what the LLM produced, and rules you can read decide what happens next. The result:
 
-## Six shifts in how you manage AI
+- **Less slop.** Every draft, fact or step is checked before anyone acts on it.
+- **More legitimate outcomes.** Each action traces to named questions, a score and a rule you can show a customer, an examiner or your board.
+- **Faster to the right action.** Checks take milliseconds, so good work moves at once and only real doubt waits for a person.
+- **A fraction of the cost.** A check costs fractions of a cent, and the expensive model is used only where it earns its keep.
 
-**1. From one big prompt to a set of small questions.**<br>
-"Should we fast-track this claim?" is a judgment nobody can audit. "Is the damage glass only? Is anyone hurt? Does the text tell us how to handle it?" are three questions anyone can check. Breaking a judgment apart is where most of the value is, and it is a management decision, not a technical one.
+This repository is [Decision Layer](https://decision-layer-indol.vercel.app/)'s playbook for that pairing, with worked examples you can take apart.
 
-**2. From AI output to AI evidence.**<br>
-The model scores. The rules that act on those scores live in a few lines of plain code your team, your auditors and your regulators can read. When policy changes, you change a rule, not a prompt.
+## Five ways to pair them
 
-**3. From trusting the model to setting the dial.**<br>
-A probability is a dial, and leaders own where it sits. Where a miss is dangerous, such as a possible injury, the bar for human review is low. Where an error is costly, such as skipping review, the bar for automation is high. You set each one by checking the model against past cases where you already know the outcome.
+**1. Check before it goes out.**<br>
+The LLM drafts the claim letter, customer reply or recommendation. The decision model asks a few sharp questions of the draft: does it promise something it shouldn't, does it match the file, is the tone right? Clean drafts go out now. The rest go to a person with the reason attached.
 
-**4. From "is the AI safe?" to "what can the input change?"**<br>
-Anyone who writes the input can try to steer the answer. Facts you can verify (coverage, account status, identity) never come from the text. Text that tries to steer becomes a signal of its own. Close calls go to a person.
+**2. Keep only what the source supports.**<br>
+The LLM pulls facts out of a long document. The decision model checks each fact against the source text, and only supported facts move forward. Unsupported ones are flagged, not silently passed on.
 
-**5. The right tool for each step.**
+**3. Many drafts, one pick.**<br>
+The LLM proposes several next steps. The decision model scores each against policy and the situation and picks one. When the scores are close, a person decides.
 
-| Step | Best tool |
-|---|---|
-| A fact you can look up | A plain rule or a database |
-| A judgment about text, with a known set of answers | A decision model |
-| Writing, summarizing, open-ended reasoning | A large language model |
-| Anything that changes someone's money, coverage or rights | A person |
+**4. Sort first, think second.**<br>
+The decision model sorts every case in milliseconds and sends only the hard ones to the LLM, with a pointed question instead of the whole problem. Most of the volume never touches the expensive model.
 
-**6. Every decision explains itself.**<br>
-Each routing outcome traces to named questions, scores and a rule. You can tell a customer, an examiner or your board why something happened in one sentence.
+**5. Keep the agent on track.**<br>
+An LLM agent works through a multi-step task. At each step the decision model asks whether to continue, stop or bring in a person, so the agent acts fast without running away.
+
+## What changes for leaders
+
+- **You design decisions, not prompts.** Break a judgment into questions anyone can audit.
+- **You own the dial.** Each probability has a bar for acting on its own, set by checking against past cases where you know the outcome. Low where a miss is dangerous, high where an error is costly.
+- **You decide what input can change.** Facts you can verify never come from text someone else wrote.
+- **A person makes the call that changes someone's money, coverage or rights.** The pairing gets the right cases to them faster, with the evidence attached.
 
 ## The worked examples
 
-We work in insurance because it is high-stakes, regulated and full of judgment calls. The patterns carry over to any queue.
+We work in insurance because it is high-stakes, regulated and full of judgment calls. The patterns carry over to any process.
+
+Our first three examples build the decision-model half on its own: the narrow questions and the rules that act on them. Examples of the full pairing, starting with "check before it goes out" and "keep only what the source supports", are next.
 
 **[Claims intake triage](examples/claims-fnol-triage/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-intake-labels-not-essays))<br>
-Shows: small questions, and a low bar for human review where a miss is dangerous.<br>
-Same pattern elsewhere: support tickets, IT incidents, patient intake.
+Small questions, and a low bar for human review where a miss is dangerous. The building block for "sort first, think second."
 
 **[A fast track that resists manipulation](examples/claims-glass-fast-track/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-fast-track-text-written-to-fool-it))<br>
-Shows: verified facts stay out of the model, and attempts to steer it become a signal.<br>
-Same pattern elsewhere: refunds, expense approvals, guardrails for AI agents.
+Verified facts stay out of the model, and attempts to steer it become a signal. The same defense matters when the text being judged was written by an LLM.
 
 **[Underwriting submission review](examples/underwriting-submission-sorting/)** ([story](https://decision-layer-indol.vercel.app/blog/underwriting-submissions-function-call))<br>
-Shows: wording the question is the real design work, and the model raises flags for people rather than giving verdicts.<br>
-Same pattern elsewhere: vendor risk, lead qualification, customer onboarding.
+Wording the question is the real design work, and the model raises flags for people rather than giving verdicts.
 
-More are on the way. See [what's next](ROADMAP.md), or [suggest one](../../issues).
+See [what's next](ROADMAP.md), or [suggest one](../../issues).
 
 ## Five questions to ask about any AI step in your process
 
-1. What exactly is being decided, and could it be split into smaller questions?
-2. Who set the bar for acting automatically, and on what evidence?
-3. What could someone write in the input to change the outcome?
-4. What happens when the model isn't sure?
-5. Could you explain one specific decision to a regulator in a sentence?
+1. What checks the LLM's output before someone acts on it?
+2. Could you split that check into small questions anyone can audit?
+3. Who set the bar for acting automatically, and on what evidence?
+4. What happens when the AI isn't sure?
+5. Could you explain one specific action to a regulator in a sentence?
 
-If the answers are vague, the process is being run by the AI, not managed.
+If the answers are vague, the AI is running the process instead of you.
 
 ## What we have and haven't tested
 
-The routing rules in every example are checked automatically. We haven't yet run the examples against the models themselves, so results are "expected, not measured" until we publish a test with its data, model version and date. Every bar in the code is a starting point to tune, not advice.
+The routing rules in every example are checked automatically. We haven't yet run the examples against the models themselves, and we make no speed or cost claims beyond the vendors' published pricing, so results are "expected, not measured" until we publish a test with its data, model version and date. Every bar in the code is a starting point to tune, not advice.
 
 ## Other good work
 
