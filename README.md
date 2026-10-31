@@ -4,7 +4,13 @@ Language models are good at reading, drafting and reasoning. They are also slow,
 
 Decision models are the other half. Jev from TypeSafe, and now similar models from OpenAI, Microsoft and others, write nothing. They answer narrow questions you define, with a probability, in milliseconds and for fractions of a cent.
 
-**Used together, they turn AI output into action you can trust.** The LLM does the thinking and drafting. The decision model checks, ranks and routes what the LLM produced, and rules you can read decide what happens next. The result:
+## The tractor and the hydraulics
+
+A tractor on its own is raw power. It can pull almost anything, but it can't lift a plow to the right depth, hold a load steady, or set it down exactly where it belongs. Hydraulics on their own don't do much at all. Put them together and the tractor becomes a precise machine that does real work all day. That pairing changed farming.
+
+An LLM is the tractor: enormous power to read, draft and reason. A decision model is the hydraulics: fast, precise control over where that power goes, what gets lifted, and what gets set down. Neither one transforms a process alone. Together they do.
+
+**Working in tandem, they turn AI output into action you can trust.** The LLM does the thinking and drafting. The decision model checks, ranks and routes what the LLM produced, and rules you can read decide what happens next. The result:
 
 - **Less slop.** Every draft, fact or step is checked before anyone acts on it.
 - **More legitimate outcomes.** Each action traces to named questions, a score and a rule you can show a customer, an examiner or your board.
