@@ -6,9 +6,9 @@ Decision models are the other half. Jev from TypeSafe, and now similar models fr
 
 ## The tractor and the hydraulics
 
-A tractor on its own is raw power. It can pull almost anything, but it can't lift a plow to the right depth, hold a load steady, or set it down exactly where it belongs. Hydraulics on their own don't do much at all. Put them together and the tractor becomes a precise machine that does real work all day. That pairing changed farming.
+A tractor on its own can drive across a field and pull a load. Add hydraulics and it becomes something else: a machine that digs a trench in minutes, lifts loads no crew could move, and does it with a touch of a lever. The tractor didn't get a bigger engine. The hydraulics multiplied what it could do.
 
-An LLM is the tractor: enormous power to read, draft and reason. A decision model is the hydraulics: fast, precise control over where that power goes, what gets lifted, and what gets set down. Neither one transforms a process alone. Together they do.
+An LLM is the tractor: a capable, general machine that can read, draft and reason about almost anything. A decision model is the hydraulics. It takes on the heavy lifting of judgment at a scale an LLM can't touch on its own: thousands of checks a second, each one in milliseconds and for a fraction of a cent. Together they move workloads that neither could move alone.
 
 **Working in tandem, they turn AI output into action you can trust.** The LLM does the thinking and drafting. The decision model checks, ranks and routes what the LLM produced, and rules you can read decide what happens next. The result:
 
