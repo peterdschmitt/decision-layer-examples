@@ -58,6 +58,9 @@ The LLM builds the fact sheet from each submission. The decision model judges ev
 **[Candidate shortlist: criteria with levels](examples/candidate-shortlist-criteria/)** ([story](https://decision-layer-indol.vercel.app/blog/jack-and-jill-coupled-llm-decision-model/))<br>
 The decision model gives every candidate a first score against the role's criteria; the LLM reads only the shortlist. "Sort and solve" for hiring.
 
+**[AI endpoint inventory](examples/ai-endpoint-inventory/)** ([story](https://decision-layer-indol.vercel.app/blog/harness-ai-api-inventory-decision-model/))<br>
+The decision model decides; an LLM explains the positives and handles only the unsure band, where every error sat in testing.
+
 **Building blocks: how to write the decision model's questions**
 
 **[Claims intake triage](examples/claims-fnol-triage/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-intake-labels-not-essays))<br>

@@ -1,0 +1,5 @@
+ENDPOINT POST /api/v2/assist/reply
+SPAN 1 request {"ticket_id": "48213", "messages": [{"role": "system", "content": "You are a helpful support agent..."}, {"role": "user", "content": "Customer asks how to reset 2FA..."}], "temperature": 0.3} -> upstream api.openai.com 200
+SPAN 1 response {"draft": "Hi Sam, to reset two-factor authentication, open Settings..."}
+SPAN 2 request {"ticket_id": "48230", "messages": [{"role": "system", "content": "You are a helpful support agent..."}, {"role": "user", "content": "Refund for a double charge..."}]} -> upstream api.openai.com 200
+SPAN 2 response {"draft": "Thanks for flagging the double charge. I've..."}
