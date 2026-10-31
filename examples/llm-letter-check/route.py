@@ -1,7 +1,7 @@
-"""Decide what happens to the draft, and tell the LLM exactly what to fix.
+"""Turn the decision model's scores into the next step: send, or direct the LLM.
 
-This is the tandem: the decision model doesn't just block a bad draft, it hands
-the LLM a precise revision request, so the next draft is better and fast.
+This is the tandem: the scores become precise directions for the LLM,
+so the next draft lands right.
 Thresholds are placeholders.
 """
 

@@ -1,40 +1,40 @@
 <p align="center"><img src=".github/assets/banner.svg" alt="Decision Layer: the tractor and the hydraulics" width="100%"></p>
 
-Language models are good at reading, drafting and reasoning. They are also slow, expensive, and sure of themselves when they shouldn't be. Put one alone in charge of a real business action and you get slop: confident letters that promise the wrong thing, summaries with facts the source never said, and agents that keep going when they should stop.
+Language models can read, reason and write about almost anything. Decision models, such as Jev from TypeSafe and now similar models from OpenAI, Microsoft and others, do something different. They answer narrow questions you define with a probability, in milliseconds and for fractions of a cent.
 
-Decision models are the other half. Jev from TypeSafe, and now similar models from OpenAI, Microsoft and others, write nothing. They answer narrow questions you define, with a probability, in milliseconds and for fractions of a cent.
+Each one alone is useful. Working together, they change what a process can do.
 
 ## The tractor and the hydraulics
 
 A tractor on its own can drive across a field and pull a load. Add hydraulics and it becomes something else: a machine that digs a trench in minutes, lifts loads no crew could move, and does it with a touch of a lever. The tractor didn't get a bigger engine. The hydraulics multiplied what it could do.
 
-An LLM is the tractor: a capable, general machine that can read, draft and reason about almost anything. A decision model is the hydraulics. It takes on the heavy lifting of judgment at a scale an LLM can't touch on its own: check after check, each one in milliseconds and for a fraction of a cent. Together they move workloads that neither could move alone.
+An LLM is the tractor: a capable, general machine that can read, draft and reason about almost anything. A decision model is the hydraulics. It takes on the heavy lifting of judgment at a scale an LLM can't touch on its own, call after call, each one in milliseconds and for a fraction of a cent. Together they move workloads that neither could move alone.
 
-**Working in tandem, they turn AI output into action you can trust.** The LLM does the thinking and drafting. The decision model checks, ranks and routes what the LLM produced, and rules you can read decide what happens next. The result:
+**In tandem, each makes the other more useful.** The LLM gives the decision model rich material to judge: drafts, options, facts pulled from long documents, plans. The decision model gives the LLM fast, precise direction: which option, which facts, what to fix, when to go and when to hand off. The loop between them turns AI work into action. The results:
 
-- **Less slop.** Every draft, fact or step is checked before anyone acts on it.
+- **Less slop.** The LLM's work is shaped by sharp, fast judgments as it goes, not reviewed afterwards.
 - **More legitimate outcomes.** Each action traces to named questions, a score and a rule you can show a customer, an examiner or your board.
-- **Faster to the right action.** Checks take milliseconds, so good work moves at once and only real doubt waits for a person.
-- **A fraction of the cost.** A check costs fractions of a cent, and the expensive model is used only where it earns its keep.
+- **Faster to the right action.** Judgments take milliseconds, so good work moves at once and only real doubt waits for a person.
+- **A fraction of the cost.** Most judgments cost fractions of a cent, so the LLM's power goes where it matters.
 
 This repository is [Decision Layer](https://decision-layer-indol.vercel.app/)'s playbook for that pairing, with worked examples you can take apart.
 
-## Five ways to pair them
+## Five ways they work in tandem
 
-**1. Check before it goes out.**<br>
-The LLM drafts the claim letter, customer reply or recommendation. The decision model asks a few sharp questions of the draft: does it promise something it shouldn't, does it match the file, is the tone right? Clean drafts go out now. The rest go to a person with the reason attached.
+**1. Draft and decide.**<br>
+The LLM drafts the claim letter, customer reply or recommendation. The decision model scores it against the file in milliseconds: promises, facts, missing requests, tone. Those scores become exact directions for the LLM's next draft, and the right letter goes out the same day.
 
-**2. Keep only what the source supports.**<br>
-The LLM pulls facts out of a long document. The decision model checks each fact against the source text, and only supported facts move forward. Unsupported ones are flagged, not silently passed on.
+**2. Read and weigh.**<br>
+The LLM reads a long document and lays out the facts. The decision model weighs each fact against the source. Together they hand an underwriter a fact sheet that's ready to act on.
 
-**3. Many drafts, one pick.**<br>
-The LLM proposes several next steps. The decision model scores each against policy and the situation and picks one. When the scores are close, a person decides.
+**3. Propose and choose.**<br>
+The LLM proposes several possible next steps. The decision model scores each against policy and the situation and chooses. The LLM brings the range of options, and the decision model makes the call fast.
 
-**4. Sort first, think second.**<br>
-The decision model sorts every case in milliseconds and sends only the hard ones to the LLM, with a pointed question instead of the whole problem. Most of the volume never touches the expensive model.
+**4. Sort and solve.**<br>
+The decision model sorts every case in milliseconds. The LLM takes the hard ones, with a pointed question instead of the whole problem. Volume moves at decision-model speed, and the LLM's reasoning goes where it counts.
 
-**5. Keep the agent on track.**<br>
-An LLM agent works through a multi-step task. At each step the decision model asks whether to continue, stop or bring in a person, so the agent acts fast without running away.
+**5. Plan and pace.**<br>
+An LLM agent plans and works through a multi-step task. At each step the decision model sets the pace: go on, pause, or hand off to a person. The agent moves quickly because each step gets a fast judgment.
 
 ## What changes for leaders
 
@@ -47,19 +47,18 @@ An LLM agent works through a multi-step task. At each step the decision model as
 
 We work in insurance because it is high-stakes, regulated and full of judgment calls. The patterns carry over to any process.
 
-**The pairing in action**
+**The two in tandem**
 
-**[Check before it goes out](examples/llm-letter-check/)**<br>
-An LLM drafts a claim letter that promises coverage nobody has approved. The decision model catches it against the claim file and sends the LLM four exact fixes. The customer gets a correct letter the same day.
+**[Draft and decide: a claim letter](examples/llm-letter-check/)**<br>
+The LLM drafts a claim letter. The decision model scores it against the claim file, and its scores give the LLM four exact directions for the next draft. The customer gets a correct letter the same day.
 
-**[Keep only what the source supports](examples/llm-fact-check/)**<br>
-An LLM summarizes a contractor's submission and invents "no roofing" and "no prior claims." The decision model checks each fact against the source, and the underwriter never sees the made-up ones.
+**[Read and weigh: an underwriting fact sheet](examples/llm-fact-check/)**<br>
+The LLM reads a contractor's submission and lays out the facts. The decision model weighs each one against the source, and the two facts the source doesn't support go back to the LLM for another read. The underwriter gets a sheet that's ready to act on.
 
-**The decision-model building blocks**
-
+**Building blocks: how to write the decision model's questions**
 
 **[Claims intake triage](examples/claims-fnol-triage/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-intake-labels-not-essays))<br>
-Small questions, and a low bar for human review where a miss is dangerous. The building block for "sort first, think second."
+Small questions, and a low bar for human review where a miss is dangerous. The decision-model side of "sort and solve."
 
 **[A fast track that resists manipulation](examples/claims-glass-fast-track/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-fast-track-text-written-to-fool-it))<br>
 Verified facts stay out of the model, and attempts to steer it become a signal. The same defense matters when the text being judged was written by an LLM.
@@ -71,8 +70,8 @@ See [what's next](ROADMAP.md), or [suggest one](../../issues).
 
 ## Five questions to ask about any AI step in your process
 
-1. What checks the LLM's output before someone acts on it?
-2. Could you split that check into small questions anyone can audit?
+1. Where could a fast, cheap judgment multiply what your LLM already does?
+2. Could that judgment be split into small questions anyone can audit?
 3. Who set the bar for acting automatically, and on what evidence?
 4. What happens when the AI isn't sure?
 5. Could you explain one specific action to a regulator in a sentence?

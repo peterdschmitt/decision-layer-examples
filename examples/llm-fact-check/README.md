@@ -1,12 +1,12 @@
-# Keep only what the source supports
+# Read and weigh: an underwriting fact sheet
 
-**Pairing:** an LLM extracts facts, a decision model checks each fact against the source, and only supported facts move forward. **Status:** routing rules checked offline; model calls not yet run by us (expected, not measured).
+**In tandem:** the LLM reads a long submission and lays out the facts, the decision model weighs each fact against the source, and facts the source doesn't support go back to the LLM for another read. **Status:** routing rules checked offline; model calls not yet run by us (expected, not measured).
 
-## Why the pairing matters
+## Why the two work better together
 
-LLMs are excellent at turning a messy document into a clean summary. They're also known to fill gaps with things that sound right. In underwriting, "no prior claims" is a dangerous thing to make up.
+An LLM turns a rambling submission into a clean, structured summary in seconds. A decision model can weigh any single statement against a source in milliseconds, but it can't write the summary. Put them together and you get both: the LLM's reading at the speed of a decision model's judgment.
 
-Re-reading every summary against the source throws away the time the LLM saved. Asking a second LLM to check costs as much again and can make the same mistake. A decision model asks one narrow yes-or-no question per fact: does the source support this? It answers in milliseconds, and the underwriter only sees facts that passed.
+Each fact gets one narrow question: does the source support this? Facts that clearly hold up go straight to the underwriter. Facts that don't go back to the LLM with the source in front of it. The underwriter starts with a sheet that's ready to act on, instead of re-reading the whole file to find out which parts are safe to trust.
 
 ## The flow
 
@@ -21,10 +21,10 @@ Re-reading every summary against the source throws away the time the LLM saved. 
 
 The submission says "Occasionally we do small roof repairs" and "We had a water damage claim at a job site a couple of years ago." The LLM's extraction says "Does no roofing work" and "No prior claims." Both mistakes are easy for a tired reader to miss, and both matter a great deal to a carrier.
 
-**What we expect:** three facts pass, and the roofing and prior-loss facts are sent back. The underwriter never sees the two made-up facts.
+**What we expect:** three facts go straight through, and the roofing and prior-loss facts go back to the LLM for another read. The underwriter's sheet shows the roof repairs and the past claim.
 
 ## Where it breaks
 
-- It checks support, not truth. If the applicant left something out, the source can't tell you.
+- It weighs support, not truth. If the applicant left something out, the source can't tell you.
 - Long documents dilute the question. Send the relevant section, not the whole packet.
 - The bars are placeholders. A high bar to pass is deliberate, because an unsupported fact that slips through costs more than a fact that gets re-checked.

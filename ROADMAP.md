@@ -2,11 +2,11 @@
 
 Each one ships with a write-up on Decision Layer. Every new example pairs an LLM with a decision model and ends in an action.
 
-1. ~~**Check before it goes out**~~ (done): an LLM drafts a claim status letter; a decision model checks it for promises, facts that don't match the file, and tone before it is sent.
-2. ~~**Keep only what the source supports**~~ (done): an LLM pulls facts from a long commercial submission; a decision model checks each one against the source before it reaches the underwriter.
-3. **Many drafts, one pick:** an LLM proposes next steps for a service case; a decision model picks one against policy.
-4. **Sort first, think second:** the claims intake example, extended so only hard cases reach the LLM, with the cost difference shown.
-5. **Keep the agent on track:** a continue, stop or escalate check at each step of an LLM agent.
+1. ~~**Draft and decide**~~ (done): an LLM drafts a claim status letter; a decision model scores it against the file and directs the next draft.
+2. ~~**Read and weigh**~~ (done): an LLM lays out the facts from a commercial submission; a decision model weighs each one against the source.
+3. **Propose and choose:** an LLM proposes next steps for a service case; a decision model picks one against policy.
+4. **Sort and solve:** the claims intake example, extended so only hard cases reach the LLM, with the cost difference shown.
+5. **Plan and pace:** an LLM agent plans; a decision model sets the pace at each step: go on, pause or hand off.
 6. **A published test run** with data, code, cost, speed, model versions and date, including rival decision models.
 
 Want one sooner? Open an issue.
