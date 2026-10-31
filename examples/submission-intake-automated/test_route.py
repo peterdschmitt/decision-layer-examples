@@ -6,7 +6,11 @@ from route import route
 
 
 class RouteTest(unittest.TestCase):
-    def test_sample_extraction_splits_the_facts(self):
+    def test_fully_supported_sheet_goes_straight_to_market(self):
+        answers = {"business_type": {"noul": 0.97}, "employees": {"noul": 0.91}}
+        self.assertEqual(route(answers), ("send_to_market", []))
+
+    def test_sample_sheet_needs_only_two_facts_confirmed(self):
         answers = {
             "business_type": {"noul": 0.97},
             "employees": {"noul": 0.93},
@@ -14,14 +18,7 @@ class RouteTest(unittest.TestCase):
             "prior_losses": {"noul": 0.03},  # source mentions a water damage claim
             "coverage_requested": {"noul": 0.98},
         }
-        self.assertEqual(route(answers), {
-            "pass_to_underwriter": ["business_type", "employees", "coverage_requested"],
-            "send_back_to_llm": ["roofing", "prior_losses"],
-            "person_checks": [],
-        })
-
-    def test_unclear_fact_goes_to_a_person(self):
-        self.assertEqual(route({"x": {"noul": 0.6}})["person_checks"], ["x"])
+        self.assertEqual(route(answers), ("person_confirms_facts", ["roofing", "prior_losses"]))
 
 
 if __name__ == "__main__":

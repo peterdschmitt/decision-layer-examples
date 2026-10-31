@@ -3,7 +3,7 @@
     python3 run.py --dry-run   # print the request, send nothing
     python3 run.py             # needs TYPESAFE_API_KEY in your environment
 
-Plug in your own LLM where the draft comes from; the check is model-agnostic.
+Plug in whichever LLM writes your letters.
 """
 
 import json
@@ -28,8 +28,8 @@ if __name__ == "__main__":
         print(json.dumps(body, indent=2))
         sys.exit(0)
     answers = ask(body)
-    action, fixes = route(answers)
+    action, reasons = route(answers)
     print(json.dumps(answers, indent=2))
     print("action:", action)
-    for fix in fixes:
-        print(" - tell the LLM:", fix)
+    for reason in reasons:
+        print(" -", reason)
