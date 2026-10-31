@@ -36,11 +36,17 @@ Each routing outcome traces to named questions, scores and a rule. You can tell 
 
 We work in insurance because it is high-stakes, regulated and full of judgment calls. The patterns carry over to any queue.
 
-| Example | The shift it shows | The same pattern elsewhere |
-|---|---|---|
-| [Claims intake triage](examples/claims-fnol-triage/) ([story](https://decision-layer-indol.vercel.app/blog/claims-intake-labels-not-essays)) | Small questions; a low bar for human review where a miss is dangerous | Support tickets, IT incidents, patient intake |
-| [A fast track that resists manipulation](examples/claims-glass-fast-track/) ([story](https://decision-layer-indol.vercel.app/blog/claims-fast-track-text-written-to-fool-it)) | Verified facts stay out of the model; steering becomes a signal | Refunds, expense approvals, guardrails for AI agents |
-| [Underwriting submission review](examples/underwriting-submission-sorting/) ([story](https://decision-layer-indol.vercel.app/blog/underwriting-submissions-function-call)) | Wording the question is the real design work; flags for people, not verdicts | Vendor risk, lead qualification, customer onboarding |
+**[Claims intake triage](examples/claims-fnol-triage/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-intake-labels-not-essays))<br>
+Shows: small questions, and a low bar for human review where a miss is dangerous.<br>
+Same pattern elsewhere: support tickets, IT incidents, patient intake.
+
+**[A fast track that resists manipulation](examples/claims-glass-fast-track/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-fast-track-text-written-to-fool-it))<br>
+Shows: verified facts stay out of the model, and attempts to steer it become a signal.<br>
+Same pattern elsewhere: refunds, expense approvals, guardrails for AI agents.
+
+**[Underwriting submission review](examples/underwriting-submission-sorting/)** ([story](https://decision-layer-indol.vercel.app/blog/underwriting-submissions-function-call))<br>
+Shows: wording the question is the real design work, and the model raises flags for people rather than giving verdicts.<br>
+Same pattern elsewhere: vendor risk, lead qualification, customer onboarding.
 
 More are on the way. See [what's next](ROADMAP.md), or [suggest one](../../issues).
 
