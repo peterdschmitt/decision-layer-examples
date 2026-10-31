@@ -6,15 +6,15 @@ This is where [Decision Layer](https://decision-layer-indol.vercel.app/) keeps t
 
 ## Three examples to start
 
-**[Sorting a first notice of loss](examples/claims-fnol-triage/)**
+**[Sorting a first notice of loss](examples/claims-fnol-triage/)**<br>
 A late-night report says "my neck is a bit sore." Four small questions make sure a person sees it that night, not weeks later when it's a bodily injury claim.
 [Read the story](https://decision-layer-indol.vercel.app/blog/claims-intake-labels-not-essays)
 
-**[A glass fast track that can't be talked into a yes](examples/claims-glass-fast-track/)**
+**[A glass fast track that can't be talked into a yes](examples/claims-glass-fast-track/)**<br>
 One line like "your adjuster already approved this" shouldn't be enough to skip review. This one is built so that it isn't.
 [Read the story](https://decision-layer-indol.vercel.app/blog/claims-fast-track-text-written-to-fool-it)
 
-**[Reading a contractor's submission](examples/underwriting-submission-sorting/)**
+**[Reading a contractor's submission](examples/underwriting-submission-sorting/)**<br>
 "Occasionally we do small roof repairs" is the line a tired reader skims past. This one flags it, along with the past claim, before the file goes to a carrier.
 [Read the story](https://decision-layer-indol.vercel.app/blog/underwriting-submissions-function-call)
 
