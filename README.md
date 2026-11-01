@@ -61,6 +61,9 @@ The decision model gives every candidate a first score against the role's criter
 **[AI endpoint inventory](examples/ai-endpoint-inventory/)** ([story](https://decision-layer-indol.vercel.app/blog/harness-ai-api-inventory-decision-model/))<br>
 The decision model decides; an LLM explains the positives and handles only the unsure band, where every error sat in testing.
 
+**[Customer-chat routing with a confidence gate](examples/chat-routing-confidence-gate/)** ([story](https://decision-layer-indol.vercel.app/blog/entagl-customer-chat-routing-decision-model/))<br>
+The decision model makes each routing call; confident answers act, the rest go to the LLM, which writes every reply. Facts the model can't see are computed in code.
+
 **Building blocks: how to write the decision model's questions**
 
 **[Claims intake triage](examples/claims-fnol-triage/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-intake-labels-not-essays))<br>
