@@ -2,7 +2,7 @@
 
 **Area:** any product where AI agents run tasks for users (work platforms, back-office automation, support). **Model:** jev-1.13.0, the version Kiva wrote about. **Status:** decision rules checked offline with made-up probabilities; model call not yet run by us (expected, not measured).
 
-Full write-up: [How a software company cut AI decision costs 90% with a decision model, without losing accuracy](https://decision-layer-indol.vercel.app/blog/kiva-ai-decisions-decision-model/).
+Full write-up: [How a software company cut AI decision costs about 90% with a decision model](https://decision-layer-indol.vercel.app/blog/kiva-ai-decisions-decision-model/).
 
 ## The process, fully automated
 
