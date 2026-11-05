@@ -61,6 +61,9 @@ The decision model gives every candidate a first score against the role's criter
 **[AI endpoint inventory](examples/ai-endpoint-inventory/)** ([story](https://decision-layer-indol.vercel.app/blog/harness-ai-api-inventory-decision-model/))<br>
 The decision model decides; an LLM explains the positives and handles only the unsure band, where every error sat in testing.
 
+**[Record matching with a review queue](examples/record-match-review-queue/)** ([story](https://decision-layer-indol.vercel.app/blog/southbridge-record-matching-decision-model/))<br>
+The decision model judges every pair of records; an LLM reviews only the least-sure few; a bar holds any answer that changes a record.
+
 **Building blocks: how to write the decision model's questions**
 
 **[Claims intake triage](examples/claims-fnol-triage/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-intake-labels-not-essays))<br>
