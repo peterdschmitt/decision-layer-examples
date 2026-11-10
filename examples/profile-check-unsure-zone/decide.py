@@ -13,7 +13,7 @@ def check(p, llm_answer, low=LOW, high=HIGH):
     Returns (verdict, who decided)."""
     if p is None:
         return llm_answer(), "llm"  # decision model down: the LLM checks, as before
-    if p >= high:
+    if p > high:
         return "wrongly_joined", "decision_model"
     if p < low:
         return "one_person", "decision_model"

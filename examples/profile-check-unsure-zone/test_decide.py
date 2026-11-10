@@ -20,7 +20,7 @@ class CheckTest(unittest.TestCase):
     def test_unsure_zone_goes_to_the_llm(self):
         self.assertEqual(check(0.55, lambda: O), (O, "llm"))
         self.assertEqual(check(0.30, lambda: W), (W, "llm"))  # low edge is inside the zone
-        self.assertEqual(check(0.90, never), (W, "decision_model"))  # high edge is outside
+        self.assertEqual(check(0.90, lambda: O), (O, "llm"))  # high edge is inside, as in "30% to 90%"
 
     def test_decision_model_down_falls_back_to_the_llm(self):
         self.assertEqual(check(None, lambda: W), (W, "llm"))
