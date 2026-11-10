@@ -1,0 +1,9 @@
+{
+  "note": "Made-up records in the style of Hightouch's example over-merge. No real people.",
+  "records": [
+    {"source": "census", "name": "Daniel Z Gardner", "birth_date": "06/02/1990", "address": "11648 main street"},
+    {"source": "w2", "name": "Daniel Z Gardner", "address": "11648 main street"},
+    {"source": "1040", "name": "Jenna K Gardner", "address": "8203 west farwell avenue"},
+    {"source": "census", "name": "Jenna K Gardner", "birth_date": "12/29/1991", "address": "8203 west farwell avenue"}
+  ]
+}
