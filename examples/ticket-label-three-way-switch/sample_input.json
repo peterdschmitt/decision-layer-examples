@@ -1,0 +1,4 @@
+{
+  "note": "A made-up ticket. Field order does not matter: request.py sorts the keys.",
+  "ticket": {"title": "p99 latency alarm on checkout-service", "source": "monitoring", "body": "Alarm: p99 above 800 ms for 15 minutes in us-east-1.", "id": "T-1001"}
+}
