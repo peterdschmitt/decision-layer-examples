@@ -1,0 +1,67 @@
+{
+  "topic": "Northwind Satellite (NWS)",
+  "note": "Made-up articles and made-up probabilities, for the offline run. 'length' is what the LLM reads per article; 'screen_length' is what the screening request carries, question included, which can be longer than the article's summary (in Currents' test it was about 546 tokens per article).",
+  "llm_prices": {
+    "expensive": 3.0,
+    "cheap": 0.25
+  },
+  "screen_price": 0.042,
+  "articles": [
+    {
+      "title": "Northwind Satellite launches five more satellites",
+      "summary": "The company confirmed a successful launch from Florida.",
+      "length": 220,
+      "screen_length": 500,
+      "p": 0.97
+    },
+    {
+      "title": "Northwind Satellite prices $400 million note offering",
+      "summary": "The offering is due in 2031.",
+      "length": 180,
+      "screen_length": 500,
+      "p": 0.93
+    },
+    {
+      "title": "10 space stocks to watch this week",
+      "summary": "Names include Northwind Satellite and nine others.",
+      "length": 260,
+      "screen_length": 500,
+      "p": 0.22
+    },
+    {
+      "title": "Law firm reminds Northwind Satellite investors of deadline",
+      "summary": "Shareholders who lost money may contact the firm.",
+      "length": 150,
+      "screen_length": 500,
+      "p": 0.08
+    },
+    {
+      "title": "Northwind Satellite signs deal with a European carrier",
+      "summary": "The carrier will offer direct-to-phone service.",
+      "length": 240,
+      "screen_length": 500,
+      "p": 0.91
+    },
+    {
+      "title": "Rival Orbitline wins Pentagon contract",
+      "summary": "Northwind Satellite was not part of the award.",
+      "length": 230,
+      "screen_length": 500,
+      "p": 0.41
+    },
+    {
+      "title": "Northwind Satellite launches five more satellites (wire copy)",
+      "summary": "The company confirmed a successful launch from Florida.",
+      "length": 220,
+      "screen_length": 500,
+      "p": 0.95
+    },
+    {
+      "title": "Analyst raises Northwind Satellite price target",
+      "summary": "The analyst cites faster deployment.",
+      "length": 200,
+      "screen_length": 500,
+      "p": 0.84
+    }
+  ]
+}

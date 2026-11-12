@@ -61,6 +61,9 @@ The decision model gives every candidate a first score against the role's criter
 **[AI endpoint inventory](examples/ai-endpoint-inventory/)** ([story](https://decision-layer-indol.vercel.app/blog/harness-ai-api-inventory-decision-model/))<br>
 The decision model decides; an LLM explains the positives and handles only the unsure band, where every error sat in testing.
 
+**[News screening before the LLM writes](examples/news-screen-before-llm/)**<br>
+The decision model drops off-topic articles before the LLM reads them, and a cost check says whether screening pays at your LLM's price.
+
 **Building blocks: how to write the decision model's questions**
 
 **[Claims intake triage](examples/claims-fnol-triage/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-intake-labels-not-essays))<br>
