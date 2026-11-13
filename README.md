@@ -61,6 +61,9 @@ The decision model gives every candidate a first score against the role's criter
 **[AI endpoint inventory](examples/ai-endpoint-inventory/)** ([story](https://decision-layer-indol.vercel.app/blog/harness-ai-api-inventory-decision-model/))<br>
 The decision model decides; an LLM explains the positives and handles only the unsure band, where every error sat in testing.
 
+**[Page judge: "not found" before the LLM guesses](examples/page-judge-not-found/)**<br>
+Search shortlists pages, the decision model judges each one, and the LLM writes from the best. No page clears the bar: the answer is "not found" and the LLM is never asked.
+
 **Building blocks: how to write the decision model's questions**
 
 **[Claims intake triage](examples/claims-fnol-triage/)** ([story](https://decision-layer-indol.vercel.app/blog/claims-intake-labels-not-essays))<br>

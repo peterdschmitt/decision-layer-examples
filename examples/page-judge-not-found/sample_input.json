@@ -1,0 +1,13 @@
+{
+  "note": "Made-up questions, pages and probabilities, for the offline run. Two absent questions are near misses: something very like the answer is in the file.",
+  "cases": [
+    {"question": "Total on invoice AEC-2025-104276?", "answerable": true, "answer_pages": ["p118"], "scores": {"p118": 0.98, "p121": 0.12, "p130": 0.08}},
+    {"question": "Who signed the supply agreement?", "answerable": true, "answer_pages": ["p41"], "scores": {"p41": 0.97, "p40": 0.33}},
+    {"question": "New day rate from 1 September 2024?", "answerable": true, "answer_pages": ["p77"], "scores": {"p77": 0.91, "p78": 0.40}},
+    {"question": "Reason for the price change on 1 December 2024?", "answerable": true, "answer_pages": ["p92", "p93"], "scores": {"p95": 0.62, "p92": 0.58, "p93": 0.44}},
+    {"question": "Total on invoice AEC-2025-101234?", "answerable": false, "answer_pages": [], "scores": {"p118": 0.06, "p121": 0.04}},
+    {"question": "Gas unit rate for Warehouse 3?", "answerable": false, "answer_pages": [], "scores": {"p77": 0.03}},
+    {"question": "When can the Metering Services Agreement be terminated?", "answerable": false, "answer_pages": [], "scores": {"p44": 0.97}},
+    {"question": "What settlement sum did the parties agree?", "answerable": false, "answer_pages": [], "scores": {"p210": 0.96, "p211": 0.20}}
+  ]
+}
