@@ -1,0 +1,101 @@
+{
+ "note": "Made-up summaries and probabilities for the offline run, not model output. One summary with personal details hides below 0.40 (an order reference at 0.35); several clean ones score above it (a report named after a client, a team name, an email template).",
+ "cases": [
+  {
+   "summary": "User browsed pricing, compared plans, left without signing up.",
+   "has_personal": false,
+   "scores": [
+    0.03,
+    0.02
+   ]
+  },
+  {
+   "summary": "User searched docs for 'feature flags', copied a snippet.",
+   "has_personal": false,
+   "scores": [
+    0.02,
+    0.04
+   ]
+  },
+  {
+   "summary": "Onboarding stalled on step 3; user clicked Back four times.",
+   "has_personal": false,
+   "scores": [
+    0.01,
+    0.03
+   ]
+  },
+  {
+   "summary": "User typed 'Maria Lopez' into the invite form and sent it.",
+   "has_personal": true,
+   "scores": [
+    0.93,
+    0.2
+   ]
+  },
+  {
+   "summary": "Checkout failed after the user entered jane@example.com.",
+   "has_personal": true,
+   "scores": [
+    0.3,
+    0.88
+   ]
+  },
+  {
+   "summary": "User mentioned the account owner by first name in a support chat.",
+   "has_personal": true,
+   "scores": [
+    0.45,
+    0.1
+   ]
+  },
+  {
+   "summary": "User pasted a long order reference into search.",
+   "has_personal": true,
+   "scores": [
+    0.05,
+    0.35
+   ]
+  },
+  {
+   "summary": "Dashboard titled 'Smith Q3 report' was opened and exported.",
+   "has_personal": false,
+   "scores": [
+    0.52,
+    0.06
+   ]
+  },
+  {
+   "summary": "User renamed a project to 'Hedgehog' and invited a teammate.",
+   "has_personal": false,
+   "scores": [
+    0.28,
+    0.08
+   ]
+  },
+  {
+   "summary": "Settings page loaded slowly; user refreshed twice.",
+   "has_personal": false,
+   "scores": [
+    0.01,
+    0.01
+   ]
+  },
+  {
+   "summary": "Ticket from the 'Acme billing team' channel was opened and closed.",
+   "has_personal": false,
+   "scores": [
+    0.44,
+    0.1
+   ]
+  },
+  {
+   "summary": "User previewed the welcome email template, then saved it.",
+   "has_personal": false,
+   "scores": [
+    0.07,
+    0.55
+   ]
+  }
+ ]
+}
