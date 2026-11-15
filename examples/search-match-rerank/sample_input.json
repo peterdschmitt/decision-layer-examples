@@ -1,0 +1,45 @@
+{
+ "note": "Made-up products, scores and visit counts for the offline run, not model output or Rakuten data.",
+ "search": "waterproof hiking boots, wide fit, size 28",
+ "candidates": [
+  {
+   "title": "Trail boot, regular fit, waterproof",
+   "description": "Regular width. Sizes 24-29.",
+   "score": 0.31
+  },
+  {
+   "title": "Boot covers for hiking, waterproof",
+   "description": "Slip over any shoe.",
+   "score": 0.04
+  },
+  {
+   "title": "Hiking boot, wide fit, waterproof membrane",
+   "description": "Wide (3E). Sizes 25-30.",
+   "score": 0.93
+  },
+  {
+   "title": "Wide-fit walking shoe",
+   "description": "Low cut, not waterproof.",
+   "score": 0.12
+  },
+  {
+   "title": "Waterproof hiking boot, 4E extra wide",
+   "description": "Sizes 26-29.",
+   "score": 0.88
+  }
+ ],
+ "test_arms": {
+  "old_search": [
+   3000,
+   100000
+  ],
+  "new_search": [
+   3300,
+   100000
+  ],
+  "new_search_plus_model": [
+   3960,
+   100000
+  ]
+ }
+}
