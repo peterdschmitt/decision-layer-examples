@@ -1,0 +1,30 @@
+{
+  "_note": "Made-up items, scores and names in the shape the parent describes. Not the parent's data and not model output.",
+  "rules": "Add events for each child's grade or class, or the whole school. Add days off, short days and deadlines. Leave out other grades only, clubs and committees, and awareness days that don't change what the child does.",
+  "items": [
+    {"id": "e1", "date": "2027-03-03", "title": "Farewell party for 6th graders", "grade": "all", "doc_date": "2026-11-01"},
+    {"id": "e2", "date": "2027-03-03", "title": "Farewell party for 6th graders", "grade": null, "doc_date": "2026-04-05"},
+    {"id": "e3", "date": "2027-03-22", "title": "Substitute holiday", "grade": null, "doc_date": "2026-04-05", "is_holiday_name": true},
+    {"id": "e4", "date": "2027-02-10", "title": "Pool day", "grade": "3", "doc_date": "2026-11-01"},
+    {"id": "e5", "date": "2027-02-15", "title": "Traffic safety day", "grade": "all", "doc_date": "2026-11-01"},
+    {"id": "e6", "date": "2027-02-18", "title": "Recital", "grade": "kindergarten", "doc_date": "2026-11-01"},
+    {"id": "e7", "date": "2027-02-18", "title": "Nursery recital", "grade": "kindergarten", "doc_date": "2026-10-20"},
+    {"id": "e8", "date": "2027-02-20", "title": "Art exhibition", "grade": null, "doc_date": "2026-11-01"},
+    {"id": "e9", "date": "2027-02-24", "title": "Class for children not yet enrolled", "grade": null, "doc_date": "2026-11-01"}
+  ],
+  "scores": {
+    "e1": {"eldest_daughter": 0.96, "family": 0.02, "drop": 0.02},
+    "e2": {"eldest_daughter": 0.90, "family": 0.03, "drop": 0.07},
+    "e4": {"eldest_daughter": 0.97, "drop": 0.03},
+    "e5": {"eldest_daughter": 0.01, "drop": 0.99},
+    "e6": {"eldest_son": 0.93, "event": 0.03, "drop": 0.04},
+    "e7": {"eldest_son": 0.91, "event": 0.04, "drop": 0.05},
+    "e8": {"event": 0.55, "family": 0.10, "drop": 0.35},
+    "e9": {"younger_son": 0.42, "drop": 0.58}
+  },
+  "old_calendar": [
+    {"name": "Pool day", "owner": "eldest_daughter"},
+    {"name": "Recital", "owner": "eldest_son"},
+    {"name": "Art exhibition", "owner": "family"}
+  ]
+}
