@@ -1,0 +1,15 @@
+{
+  "_note": "Made-up steps, labels and scores in the shape SellScale describes. Not SellScale's data and not model output.",
+  "steps": {
+    "is_record_noise": {"examples": [{"input": "r1", "label": "noise"}, {"input": "r2", "label": "useful"}, {"input": "r3", "label": "noise"}, {"input": "r4", "label": "useful"}]},
+    "is_duplicate": {"examples": [{"input": "d1", "label": "yes"}, {"input": "d2", "label": "no"}, {"input": "d3", "label": "yes"}, {"input": "d4", "label": "yes"}]},
+    "rubric_quality_of_reply": {"examples": [{"input": "q1", "label": "good"}, {"input": "q2", "label": "poor"}, {"input": "q3", "label": "good"}, {"input": "q4", "label": "poor"}]},
+    "group_chat_should_reply": {"bar": 0.75, "examples": [{"input": "g1", "label": "reply"}, {"input": "g2", "label": "stay_quiet"}, {"input": "g3", "label": "reply"}, {"input": "g4", "label": "reply"}]}
+  },
+  "model_answers": {
+    "r1": {"noise": 0.97, "useful": 0.03}, "r2": {"noise": 0.02, "useful": 0.98}, "r3": {"noise": 0.95, "useful": 0.05}, "r4": {"noise": 0.10, "useful": 0.90},
+    "d1": {"yes": 0.99, "no": 0.01}, "d2": {"yes": 0.03, "no": 0.97}, "d3": {"yes": 0.40, "no": 0.60}, "d4": {"yes": 0.92, "no": 0.08},
+    "q1": {"good": 0.55, "poor": 0.45}, "q2": {"good": 0.62, "poor": 0.38}, "q3": {"good": 0.30, "poor": 0.70}, "q4": {"good": 0.20, "poor": 0.80},
+    "g1": {"reply": 0.91, "stay_quiet": 0.09}, "g2": {"reply": 0.12, "stay_quiet": 0.88}, "g3": {"reply": 0.58, "stay_quiet": 0.42}, "g4": {"reply": 0.20, "stay_quiet": 0.80}
+  }
+}
