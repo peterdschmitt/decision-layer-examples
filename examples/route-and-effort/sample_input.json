@@ -1,0 +1,19 @@
+{
+  "note": "Made-up requests and made-up decision-model answers, for an offline run. Not Microsoft data.",
+  "requests": {
+    "q1": {"text": "What does our travel policy say about rail upgrades?", "route": {"chat": 0.96, "agent": 0.04}, "effort": {"low": 0.88, "medium": 0.1, "high": 0.02}},
+    "q2": {"text": "Book a 30-minute call with the finance team next week and send them the Q3 deck.", "route": {"chat": 0.03, "agent": 0.97}, "effort": {"low": 0.2, "medium": 0.72, "high": 0.08}},
+    "q3": {"text": "Summarise this thread in three bullets.", "route": {"chat": 0.91, "agent": 0.09}, "effort": {"low": 0.81, "medium": 0.17, "high": 0.02}},
+    "q4": {"text": "Can you sort out the vendor renewals?", "route": {"chat": 0.55, "agent": 0.45}, "effort": {"low": 0.1, "medium": 0.5, "high": 0.4}},
+    "q5": {"text": "Draft replies to the five customer emails flagged urgent and file them as drafts.", "route": {"chat": 0.12, "agent": 0.88}, "effort": {"low": 0.05, "medium": 0.3, "high": 0.65}},
+    "q6": {"text": "Compare our three pricing scenarios and build a slide with the trade-offs.", "route": {"chat": 0.18, "agent": 0.82}, "effort": {"low": 0.02, "medium": 0.13, "high": 0.85}}
+  },
+  "past_llm_routes": [
+    {"request": "q1", "llm_route": "chat"},
+    {"request": "q2", "llm_route": "agent"},
+    {"request": "q3", "llm_route": "chat"},
+    {"request": "q4", "llm_route": "agent"},
+    {"request": "q5", "llm_route": "agent"},
+    {"request": "q6", "llm_route": "agent"}
+  ]
+}
