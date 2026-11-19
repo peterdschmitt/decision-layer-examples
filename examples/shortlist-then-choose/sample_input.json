@@ -1,0 +1,19 @@
+{
+  "note": "Made-up products, vectors and decision-model answers for an offline run. Not Channel3 data.",
+  "categories": {
+    "Coats & Jackets": [0.9, 0.1, 0.0], "Sweatshirts": [0.8, 0.3, 0.0], "Bicycles": [0.1, 0.9, 0.2],
+    "Motor Vehicles": [0.2, 0.8, 0.5], "Running Shoes": [0.6, 0.2, 0.7], "Camping Tents": [0.0, 0.5, 0.9]
+  },
+  "products": {
+    "p1": {"text": "Nike Sportswear Club Fleece jacket", "vec": [0.88, 0.15, 0.02], "truth": "Coats & Jackets",
+           "answers": {"Coats & Jackets": 0.91, "Sweatshirts": 0.07, "none of these": 0.02}},
+    "p2": {"text": "Youth bicycle, 20-inch wheels", "vec": [0.12, 0.88, 0.25], "truth": "Bicycles",
+           "answers": {"Bicycles": 0.94, "Motor Vehicles": 0.05, "none of these": 0.01}},
+    "p3": {"text": "Trail running shoe, waterproof", "vec": [0.55, 0.2, 0.72], "truth": "Running Shoes",
+           "answers": {"Running Shoes": 0.86, "Camping Tents": 0.1, "none of these": 0.04}},
+    "p4": {"text": "Hooded fleece pullover", "vec": [0.82, 0.25, 0.0], "truth": "Sweatshirts",
+           "answers": {"Coats & Jackets": 0.52, "Sweatshirts": 0.45, "none of these": 0.03}},
+    "p5": {"text": "Two-person backpacking tent", "vec": [0.02, 0.48, 0.9], "truth": "Camping Tents",
+           "answers": {"Camping Tents": 0.97, "Running Shoes": 0.02, "none of these": 0.01}}
+  }
+}
