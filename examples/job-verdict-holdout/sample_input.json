@@ -1,0 +1,185 @@
+{
+  "note": "Made-up numbers for two jobs, shaped like Hostinger's two tests. Not real data.",
+  "jobs": {
+    "phishing": {
+      "calibration": [
+        [
+          {
+            "phishing": 0.97,
+            "safe": 0.03
+          },
+          "phishing"
+        ],
+        [
+          {
+            "phishing": 0.04,
+            "safe": 0.96
+          },
+          "safe"
+        ],
+        [
+          {
+            "phishing": 0.91,
+            "safe": 0.09
+          },
+          "phishing"
+        ],
+        [
+          {
+            "phishing": 0.58,
+            "safe": 0.42
+          },
+          "safe"
+        ],
+        [
+          {
+            "phishing": 0.08,
+            "safe": 0.92
+          },
+          "safe"
+        ]
+      ],
+      "holdout": [
+        {
+          "probs": {
+            "phishing": 0.95,
+            "safe": 0.05
+          },
+          "llm": "phishing",
+          "right": "phishing"
+        },
+        {
+          "probs": {
+            "phishing": 0.06,
+            "safe": 0.94
+          },
+          "llm": "safe",
+          "right": "safe"
+        },
+        {
+          "probs": {
+            "phishing": 0.88,
+            "safe": 0.12
+          },
+          "llm": "phishing",
+          "right": "phishing"
+        },
+        {
+          "probs": {
+            "phishing": 0.03,
+            "safe": 0.97
+          },
+          "llm": "safe",
+          "right": "safe"
+        },
+        {
+          "probs": {
+            "phishing": 0.38,
+            "safe": 0.62
+          },
+          "llm": "safe",
+          "right": "safe"
+        }
+      ],
+      "cost_per_1000": {
+        "decision_model": 0.021,
+        "llm": 0.09
+      }
+    },
+    "support_chats": {
+      "calibration": [
+        [
+          {
+            "hosting": 0.93,
+            "domains": 0.04,
+            "email": 0.03
+          },
+          "hosting"
+        ],
+        [
+          {
+            "hosting": 0.45,
+            "domains": 0.4,
+            "email": 0.15
+          },
+          "domains"
+        ],
+        [
+          {
+            "hosting": 0.05,
+            "domains": 0.9,
+            "email": 0.05
+          },
+          "domains"
+        ],
+        [
+          {
+            "hosting": 0.3,
+            "domains": 0.2,
+            "email": 0.5
+          },
+          "hosting"
+        ],
+        [
+          {
+            "hosting": 0.02,
+            "domains": 0.03,
+            "email": 0.95
+          },
+          "email"
+        ]
+      ],
+      "holdout": [
+        {
+          "probs": {
+            "hosting": 0.94,
+            "domains": 0.03,
+            "email": 0.03
+          },
+          "llm": "hosting",
+          "right": "hosting"
+        },
+        {
+          "probs": {
+            "hosting": 0.48,
+            "domains": 0.42,
+            "email": 0.1
+          },
+          "llm": "domains",
+          "right": "domains"
+        },
+        {
+          "probs": {
+            "hosting": 0.04,
+            "domains": 0.92,
+            "email": 0.04
+          },
+          "llm": "domains",
+          "right": "domains"
+        },
+        {
+          "probs": {
+            "hosting": 0.35,
+            "domains": 0.15,
+            "email": 0.5
+          },
+          "llm": "hosting",
+          "right": "hosting"
+        },
+        {
+          "probs": {
+            "hosting": 0.03,
+            "domains": 0.02,
+            "email": 0.95
+          },
+          "llm": "email",
+          "right": "email"
+        }
+      ],
+      "cost_per_1000": {
+        "decision_model": 0.23,
+        "llm": 1.27
+      }
+    }
+  }
+}
