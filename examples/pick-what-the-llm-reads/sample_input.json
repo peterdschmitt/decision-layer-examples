@@ -1,0 +1,20 @@
+{
+  "note": "Made-up notes, questions and decision-model percentages, shaped like Unblocked's test. Not real data.",
+  "cases": [
+    {"question": "How do we roll back a failed deploy?",
+     "notes": {"rollback-runbook": 0.91, "deploy-checklist": 0.62, "oncall-rota": 0.31, "style-guide": 0.04, "old-rollback-2023": 0.44},
+     "relevant": ["rollback-runbook", "deploy-checklist"]},
+    {"question": "Which team owns the billing service?",
+     "notes": {"service-owners": 0.88, "billing-readme": 0.57, "org-chart-2024": 0.39, "deploy-checklist": 0.08},
+     "relevant": ["service-owners"]},
+    {"question": "What is our policy on naming feature flags?",
+     "notes": {"style-guide": 0.71, "flag-cleanup-doc": 0.53, "service-owners": 0.12},
+     "relevant": ["style-guide", "flag-cleanup-doc"]},
+    {"question": "Why did the search index rebuild take six hours last night?",
+     "notes": {"search-readme": 0.36, "deploy-checklist": 0.18, "oncall-rota": 0.22},
+     "relevant": []},
+    {"question": "Who approves a new third-party library?",
+     "notes": {"security-review": 0.83, "style-guide": 0.47, "service-owners": 0.29},
+     "relevant": ["security-review"]}
+  ]
+}
