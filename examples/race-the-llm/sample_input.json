@@ -1,0 +1,13 @@
+{
+  "note": "Made-up shadow log: what the decision model said, how sure it was, and what the LLM chose. Not real data.",
+  "log": [
+    {"message": "I need 12 office chairs for our school", "label": "new_purchase", "prob": 0.97, "llm": "new_purchase"},
+    {"message": "Change the delivery date in section 3", "label": "edit_document", "prob": 0.94, "llm": "edit_document"},
+    {"message": "sobis", "label": "follow_up", "prob": 0.41, "llm": "follow_up"},
+    {"message": "Which suppliers sell ergonomic chairs?", "label": "market_research", "prob": 0.91, "llm": "market_research"},
+    {"message": "Also add a warranty clause and find two more suppliers", "label": "edit_document", "prob": 0.66, "llm": "several_tasks"},
+    {"message": "What CPV code fits office furniture?", "label": "question", "prob": 0.88, "llm": "question"},
+    {"message": "Start over with laptops instead", "label": "new_purchase", "prob": 0.93, "llm": "new_purchase"},
+    {"message": "ok, and the budget?", "label": "question", "prob": 0.58, "llm": "follow_up"}
+  ]
+}
