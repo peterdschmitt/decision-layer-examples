@@ -1,0 +1,2805 @@
+{
+"note": "Made-up cases for one choice: is this support message a refund request? Mistakes were set at about four times what the percentages imply. Not real data.",
+"cases": [
+{
+"truth": "other",
+"probs": {
+"other": 0.986,
+"refund": 0.014
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.607,
+"other": 0.393
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.861,
+"other": 0.139
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.957,
+"other": 0.043
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.983,
+"other": 0.017
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.569,
+"refund": 0.431
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.971,
+"refund": 0.029
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.873,
+"other": 0.127
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.989,
+"refund": 0.011
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.986,
+"other": 0.014
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.977,
+"other": 0.023
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.863,
+"other": 0.137
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.998,
+"other": 0.002
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.566,
+"other": 0.434
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.972,
+"other": 0.028
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.973,
+"other": 0.027
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.997,
+"other": 0.003
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.972,
+"refund": 0.028
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.904,
+"other": 0.096
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.9,
+"other": 0.1
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.976,
+"refund": 0.024
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.728,
+"refund": 0.272
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.995,
+"other": 0.005
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.983,
+"other": 0.017
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.979,
+"refund": 0.021
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.988,
+"other": 0.012
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.983,
+"refund": 0.017
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.981,
+"other": 0.019
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.988,
+"other": 0.012
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.916,
+"refund": 0.084
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.901,
+"refund": 0.099
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.881,
+"other": 0.119
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.729,
+"other": 0.271
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.843,
+"refund": 0.157
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.952,
+"other": 0.048
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.611,
+"refund": 0.389
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.977,
+"other": 0.023
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.987,
+"other": 0.013
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.983,
+"refund": 0.017
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.92,
+"other": 0.08
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.692,
+"other": 0.308
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.556,
+"refund": 0.444
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.888,
+"refund": 0.112
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.938,
+"other": 0.062
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.656,
+"other": 0.344
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.675,
+"refund": 0.325
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.925,
+"refund": 0.075
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.972,
+"other": 0.028
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.814,
+"other": 0.186
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.92,
+"refund": 0.08
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.912,
+"refund": 0.088
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.971,
+"other": 0.029
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.96,
+"refund": 0.04
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.974,
+"other": 0.026
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.891,
+"refund": 0.109
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.982,
+"refund": 0.018
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.993,
+"other": 0.007
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.987,
+"refund": 0.013
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.98,
+"other": 0.02
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.633,
+"refund": 0.367
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.997,
+"refund": 0.003
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.931,
+"refund": 0.069
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.633,
+"refund": 0.367
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.98,
+"other": 0.02
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.976,
+"refund": 0.024
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.971,
+"other": 0.029
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.929,
+"refund": 0.071
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.874,
+"other": 0.126
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.941,
+"refund": 0.059
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.98,
+"other": 0.02
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.959,
+"other": 0.041
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.666,
+"other": 0.334
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.959,
+"refund": 0.041
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.91,
+"refund": 0.09
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.875,
+"refund": 0.125
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.844,
+"other": 0.156
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.888,
+"refund": 0.112
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.983,
+"refund": 0.017
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.971,
+"other": 0.029
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.985,
+"other": 0.015
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.82,
+"refund": 0.18
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.998,
+"other": 0.002
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.986,
+"other": 0.014
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.718,
+"other": 0.282
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.811,
+"refund": 0.189
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.986,
+"refund": 0.014
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.986,
+"other": 0.014
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.998,
+"refund": 0.002
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.587,
+"refund": 0.413
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.986,
+"refund": 0.014
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.671,
+"refund": 0.329
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.983,
+"refund": 0.017
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.982,
+"other": 0.018
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.993,
+"other": 0.007
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.97,
+"refund": 0.03
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.988,
+"other": 0.012
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.952,
+"refund": 0.048
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.955,
+"other": 0.045
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.985,
+"other": 0.015
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.71,
+"refund": 0.29
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.734,
+"refund": 0.266
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.947,
+"other": 0.053
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.997,
+"other": 0.003
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.973,
+"other": 0.027
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.981,
+"refund": 0.019
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.993,
+"other": 0.007
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.946,
+"refund": 0.054
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.959,
+"other": 0.041
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.941,
+"other": 0.059
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.971,
+"refund": 0.029
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.976,
+"other": 0.024
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.579,
+"refund": 0.421
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.859,
+"refund": 0.141
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.985,
+"refund": 0.015
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.988,
+"other": 0.012
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.983,
+"refund": 0.017
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.975,
+"other": 0.025
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.994,
+"refund": 0.006
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.987,
+"refund": 0.013
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.996,
+"other": 0.004
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.996,
+"refund": 0.004
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.899,
+"refund": 0.101
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.984,
+"other": 0.016
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.821,
+"refund": 0.179
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.75,
+"other": 0.25
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.975,
+"other": 0.025
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.743,
+"refund": 0.257
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.557,
+"refund": 0.443
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.982,
+"other": 0.018
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.851,
+"other": 0.149
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.715,
+"other": 0.285
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.969,
+"refund": 0.031
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.987,
+"other": 0.013
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.666,
+"refund": 0.334
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.922,
+"refund": 0.078
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.985,
+"refund": 0.015
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.989,
+"refund": 0.011
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.853,
+"refund": 0.147
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.899,
+"other": 0.101
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.982,
+"other": 0.018
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.679,
+"other": 0.321
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.855,
+"other": 0.145
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.906,
+"other": 0.094
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.988,
+"refund": 0.012
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.657,
+"refund": 0.343
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.989,
+"refund": 0.011
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.932,
+"refund": 0.068
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.97,
+"refund": 0.03
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.973,
+"refund": 0.027
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.893,
+"refund": 0.107
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.934,
+"other": 0.066
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.873,
+"refund": 0.127
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.874,
+"other": 0.126
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.978,
+"other": 0.022
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.986,
+"other": 0.014
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.598,
+"refund": 0.402
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.984,
+"other": 0.016
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.974,
+"other": 0.026
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.994,
+"other": 0.006
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.897,
+"refund": 0.103
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.969,
+"refund": 0.031
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.949,
+"other": 0.051
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.973,
+"other": 0.027
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.986,
+"refund": 0.014
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.994,
+"other": 0.006
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.989,
+"other": 0.011
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.992,
+"refund": 0.008
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.98,
+"refund": 0.02
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.991,
+"refund": 0.009
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.641,
+"other": 0.359
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.769,
+"refund": 0.231
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.557,
+"other": 0.443
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.939,
+"refund": 0.061
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.95,
+"refund": 0.05
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.956,
+"refund": 0.044
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.972,
+"other": 0.028
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.745,
+"other": 0.255
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.945,
+"other": 0.055
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.973,
+"other": 0.027
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.867,
+"other": 0.133
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.992,
+"refund": 0.008
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.98,
+"refund": 0.02
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.986,
+"other": 0.014
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.673,
+"other": 0.327
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.8,
+"refund": 0.2
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.913,
+"other": 0.087
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.982,
+"other": 0.018
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.988,
+"other": 0.012
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.985,
+"refund": 0.015
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.979,
+"other": 0.021
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.997,
+"other": 0.003
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.984,
+"other": 0.016
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.98,
+"other": 0.02
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.985,
+"refund": 0.015
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.975,
+"refund": 0.025
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.715,
+"other": 0.285
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.998,
+"other": 0.002
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.971,
+"other": 0.029
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.985,
+"refund": 0.015
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.997,
+"other": 0.003
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.685,
+"refund": 0.315
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.869,
+"other": 0.131
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.996,
+"other": 0.004
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.63,
+"refund": 0.37
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.85,
+"other": 0.15
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.978,
+"other": 0.022
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.86,
+"other": 0.14
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.976,
+"other": 0.024
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.971,
+"refund": 0.029
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.994,
+"refund": 0.006
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.986,
+"refund": 0.014
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.972,
+"refund": 0.028
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.983,
+"other": 0.017
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.981,
+"refund": 0.019
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.905,
+"other": 0.095
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.766,
+"refund": 0.234
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.986,
+"refund": 0.014
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.917,
+"refund": 0.083
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.991,
+"refund": 0.009
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.984,
+"refund": 0.016
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.973,
+"other": 0.027
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.872,
+"refund": 0.128
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.728,
+"refund": 0.272
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.999,
+"refund": 0.001
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.997,
+"refund": 0.003
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.976,
+"other": 0.024
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.98,
+"refund": 0.02
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.924,
+"refund": 0.076
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.929,
+"refund": 0.071
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.979,
+"refund": 0.021
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.985,
+"refund": 0.015
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.869,
+"refund": 0.131
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.985,
+"other": 0.015
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.997,
+"other": 0.003
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.989,
+"other": 0.011
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.982,
+"refund": 0.018
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.658,
+"other": 0.342
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.991,
+"other": 0.009
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.917,
+"other": 0.083
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.958,
+"refund": 0.042
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.994,
+"refund": 0.006
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.992,
+"refund": 0.008
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.986,
+"other": 0.014
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.993,
+"other": 0.007
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.939,
+"refund": 0.061
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.942,
+"refund": 0.058
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.974,
+"refund": 0.026
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.98,
+"other": 0.02
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.89,
+"other": 0.11
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.898,
+"refund": 0.102
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.982,
+"refund": 0.018
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.999,
+"refund": 0.001
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.973,
+"refund": 0.027
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.996,
+"refund": 0.004
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.988,
+"refund": 0.012
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.94,
+"refund": 0.06
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.623,
+"other": 0.377
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.842,
+"refund": 0.158
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.879,
+"refund": 0.121
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.814,
+"refund": 0.186
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.993,
+"other": 0.007
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.974,
+"refund": 0.026
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.865,
+"other": 0.135
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.979,
+"refund": 0.021
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.983,
+"refund": 0.017
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.878,
+"other": 0.122
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.642,
+"other": 0.358
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.943,
+"refund": 0.057
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.758,
+"refund": 0.242
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.656,
+"other": 0.344
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.934,
+"other": 0.066
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.998,
+"other": 0.002
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.994,
+"refund": 0.006
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.866,
+"other": 0.134
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.995,
+"other": 0.005
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.975,
+"other": 0.025
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.978,
+"other": 0.022
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.979,
+"other": 0.021
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.989,
+"other": 0.011
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.997,
+"other": 0.003
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.987,
+"refund": 0.013
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.986,
+"other": 0.014
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.88,
+"refund": 0.12
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.993,
+"other": 0.007
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.983,
+"other": 0.017
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.568,
+"refund": 0.432
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.893,
+"refund": 0.107
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.911,
+"other": 0.089
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.863,
+"other": 0.137
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.992,
+"other": 0.008
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.952,
+"refund": 0.048
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.998,
+"other": 0.002
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.604,
+"refund": 0.396
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.947,
+"refund": 0.053
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.559,
+"refund": 0.441
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.915,
+"other": 0.085
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.982,
+"refund": 0.018
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.944,
+"other": 0.056
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.601,
+"other": 0.399
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.989,
+"refund": 0.011
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.981,
+"other": 0.019
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.589,
+"refund": 0.411
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.992,
+"refund": 0.008
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.985,
+"other": 0.015
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.982,
+"other": 0.018
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.936,
+"other": 0.064
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.995,
+"refund": 0.005
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.659,
+"other": 0.341
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.615,
+"refund": 0.385
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.857,
+"other": 0.143
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.815,
+"refund": 0.185
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.994,
+"refund": 0.006
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.982,
+"other": 0.018
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.87,
+"refund": 0.13
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.941,
+"refund": 0.059
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.754,
+"other": 0.246
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.972,
+"refund": 0.028
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.971,
+"other": 0.029
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.918,
+"refund": 0.082
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.974,
+"refund": 0.026
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.994,
+"refund": 0.006
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.981,
+"other": 0.019
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.977,
+"other": 0.023
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.909,
+"refund": 0.091
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.854,
+"other": 0.146
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.99,
+"refund": 0.01
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.981,
+"other": 0.019
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.904,
+"other": 0.096
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.618,
+"other": 0.382
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.867,
+"other": 0.133
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.97,
+"refund": 0.03
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.995,
+"refund": 0.005
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.811,
+"other": 0.189
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.993,
+"other": 0.007
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.981,
+"refund": 0.019
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.877,
+"other": 0.123
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.892,
+"other": 0.108
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.959,
+"other": 0.041
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.995,
+"refund": 0.005
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.981,
+"refund": 0.019
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.632,
+"other": 0.368
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.906,
+"refund": 0.094
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.971,
+"refund": 0.029
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.881,
+"other": 0.119
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.98,
+"other": 0.02
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.876,
+"other": 0.124
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.899,
+"other": 0.101
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.983,
+"refund": 0.017
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.561,
+"refund": 0.439
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.984,
+"refund": 0.016
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.976,
+"other": 0.024
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.985,
+"other": 0.015
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.952,
+"other": 0.048
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.95,
+"refund": 0.05
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.971,
+"other": 0.029
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.966,
+"other": 0.034
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.909,
+"refund": 0.091
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.992,
+"refund": 0.008
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.979,
+"other": 0.021
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.955,
+"other": 0.045
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.643,
+"other": 0.357
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.855,
+"refund": 0.145
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.977,
+"refund": 0.023
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.894,
+"other": 0.106
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.611,
+"refund": 0.389
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.991,
+"refund": 0.009
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.981,
+"refund": 0.019
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.97,
+"other": 0.03
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.977,
+"refund": 0.023
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.867,
+"other": 0.133
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.971,
+"refund": 0.029
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.946,
+"refund": 0.054
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.986,
+"refund": 0.014
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.983,
+"refund": 0.017
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.899,
+"other": 0.101
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.99,
+"refund": 0.01
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.975,
+"other": 0.025
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.814,
+"other": 0.186
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.971,
+"other": 0.029
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.979,
+"other": 0.021
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.978,
+"other": 0.022
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.992,
+"refund": 0.008
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.974,
+"other": 0.026
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.971,
+"refund": 0.029
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.972,
+"refund": 0.028
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.809,
+"other": 0.191
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.564,
+"refund": 0.436
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.931,
+"refund": 0.069
+}
+},
+{
+"truth": "other",
+"probs": {
+"refund": 0.887,
+"other": 0.113
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.998,
+"other": 0.002
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.977,
+"refund": 0.023
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.798,
+"other": 0.202
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.994,
+"refund": 0.006
+}
+},
+{
+"truth": "refund",
+"probs": {
+"other": 0.557,
+"refund": 0.443
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.981,
+"refund": 0.019
+}
+},
+{
+"truth": "other",
+"probs": {
+"other": 0.989,
+"refund": 0.011
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.989,
+"other": 0.011
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.975,
+"other": 0.025
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.932,
+"other": 0.068
+}
+},
+{
+"truth": "refund",
+"probs": {
+"refund": 0.981,
+"other": 0.019
+}
+}
+]
+}
