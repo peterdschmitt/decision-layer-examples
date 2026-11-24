@@ -79,6 +79,15 @@ class Turn(unittest.TestCase):
         self.assertEqual(calls["fetch"], 0)
 
 
+class FastPath(unittest.TestCase):
+    def test_fast_path_change_still_needs_rules_and_yes(self):
+        d, llm, fetch, _ = fakes({"lookup_needed": ("yes", 0.2), "customer_said_yes": ("yes", 0.2)},
+                                 [Change("cancel", "R3")])
+        reply, path = run(turn({}, d, llm, fetch))
+        self.assertEqual(path, "fast")
+        self.assertEqual(reply.changes, [])
+
+
 class Score(unittest.TestCase):
     def test_scorecard(self):
         before = [{"forbidden_change": i < 4, "llm_calls": 3, "messages": 1, "cost": 1.0} for i in range(50)]

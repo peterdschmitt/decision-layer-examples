@@ -58,13 +58,15 @@ async def turn(state, decide, llm, fetch):
     draft = asyncio.create_task(llm(state))           # the LLM starts at once, as before
     d = await decide(state)
     if d["lookup_needed"][1] < BARS["lookup_needed"]:
-        return await draft, "fast"                     # nothing to look up: the LLM's reply goes out
-    draft.cancel()
-    pick = sure(d["booking"], "booking")
-    if pick:
-        state["bookings"] = {pick: await fetch(pick)}  # code does the lookup the decision model picked
-    reply = await llm(state)                           # the LLM writes and fills in any change
-    said_yes = sure(d["customer_said_yes"], "customer_said_yes") == "yes"
+        reply, path = await draft, "fast"              # nothing to look up: the LLM's own reply
+    else:
+        draft.cancel()
+        pick = sure(d["booking"], "booking")
+        if pick:
+            state["bookings"] = {pick: await fetch(pick)}  # code does the lookup the decision model picked
+        reply, path = await llm(state), "full"         # the LLM writes and fills in any change
+    # every change, on either path, needs the rules and a clear yes
+    said_yes = sure(d.get("customer_said_yes", ("none", 0.0)), "customer_said_yes") == "yes"
     reason = sure(d.get("reason", ("none", 0.0)), "reason")
     kept = []
     for c in reply.changes:
@@ -73,7 +75,7 @@ async def turn(state, decide, llm, fetch):
             ok, why = False, "no clear yes from the customer"
         (kept if ok else reply.held).append(c if ok else (c, why))
     reply.changes = kept
-    return reply, "full"
+    return reply, path
 
 
 def scorecard(before, after):
