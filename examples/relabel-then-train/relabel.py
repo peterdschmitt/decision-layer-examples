@@ -1,8 +1,8 @@
 """Relabel, then train: clean the examples a decision model learns from.
 
 A trained decision model relabels every example. An LLM labels the same
-examples on its own. Where both agree, the example passes (and is
-corrected when both say the old answer was wrong). Disagreements and
+examples on its own. Where both agree, the example passes with their
+answer (corrected when both say the old answer was wrong). Disagreements and
 unsure cases go to people, whose rulings are logged with the rule they
 used. Then two checks every deployment needs: the both-calls-right score
 and the shuffle test.
@@ -19,7 +19,7 @@ def top(probs: Dict[str, float]) -> Tuple[str, float]:
     return best, probs[best]
 
 
-def triage(examples, decide: Callable, llm_label: Callable, sure=0.9, unsure=0.4):
+def triage(examples, decide: Callable, llm_label: Callable, unsure=0.4):
     """Returns (keep, to_people). Each example: {'id','state','question','label'}."""
     keep, to_people = [], []
     for ex in examples:
@@ -29,8 +29,8 @@ def triage(examples, decide: Callable, llm_label: Callable, sure=0.9, unsure=0.4
             to_people.append((ex, "decision model unsure", answer, second))
         elif answer != second:
             to_people.append((ex, "the two models disagree", answer, second))
-        elif answer != ex["label"] and p >= sure:
-            keep.append({**ex, "label": answer, "relabelled": True})
+        elif answer != ex["label"]:
+            keep.append({**ex, "label": answer, "relabelled": True})  # both say the old answer was wrong
         else:
             keep.append(ex)
     return keep, to_people

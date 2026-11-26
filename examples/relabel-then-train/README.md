@@ -9,7 +9,7 @@ Full write-up: the Decision Layer post on QQ Music (draft, Nov. 26, 2026).
 1. **Test ready-made decision models first** on your own real requests, with your rules written into the answers.
 2. **Look at the confident misses.** In Tencent's report for QQ Music, staff found that 35–40% of a batch of confident "mistakes" were wrong answers in the data, not in the model.
 3. **Relabel every example twice:** once by a trained decision model, once by an LLM on its own.
-4. **Keep what both agree on.** Correct an old answer only when both models agree it is wrong and the decision model is very sure.
+4. **Keep what both agree on,** with their answer. Where both say the old answer was wrong, it is corrected. The decision model's very sure disagreements are the ones to study first, as Tencent did.
 5. **Send disagreements and unsure cases to people,** who rule using the written rules. Log which rule decided each one. Rules that keep coming up need clearer wording.
 6. **Train, then score two things:** the share of requests with every call right, and how often an answer changes when the options are shuffled.
 

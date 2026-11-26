@@ -28,11 +28,12 @@ class TestRelabel(unittest.TestCase):
                            lambda s, q: "playlist")
         self.assertEqual(people[0][1], "decision model unsure")
 
-    def test_agreeing_but_not_sure_enough_keeps_old_label(self):
-        keep, _ = triage([ex(4, "song")], lambda s, q: {"playlist": 0.7, "song": 0.3},
-                         lambda s, q: "playlist")
-        self.assertEqual(keep[0]["label"], "song")
-        self.assertNotIn("relabelled", keep[0])
+    def test_agreeing_models_correct_old_label_even_when_less_sure(self):
+        keep, people = triage([ex(4, "song")], lambda s, q: {"playlist": 0.7, "song": 0.3},
+                              lambda s, q: "playlist")
+        self.assertEqual(people, [])
+        self.assertEqual(keep[0]["label"], "playlist")
+        self.assertTrue(keep[0]["relabelled"])
 
     def test_matching_label_passes(self):
         keep, _ = triage([ex(5, "song")], lambda s, q: {"song": 0.9, "playlist": 0.1}, lambda s, q: "song")
